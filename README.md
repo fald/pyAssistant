@@ -9,7 +9,7 @@ Current goals:
 - A simple ToDo application on command line that supports due dates, recurrence and grouping.
 	- Daily, today, tomorrow, x Monday of the month etc.
 	- Support prioritising.
-	- Support duration.
+	- Support duration (per task and per session).
 	- Support time chunks (Free time, work time) and allowable activities (groups, sorta?)
 - Support basic command-line usage and data persistence using an XML file
 - Ping user for input, or when a task is due (configurable when entering item)
