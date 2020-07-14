@@ -15,6 +15,8 @@ Current goals:
 	- Ping user for input, or when a task is due (configurable when entering item)
 	
 Future goals:
+	- Sub-tasks
+	- Reminders
 	- Varying command-line functionality, either via python script or bash for *nix
 	- GUI version
 	- Android version
