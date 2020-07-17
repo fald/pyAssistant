@@ -11,17 +11,18 @@ Current goals:
 	- Support prioritising.
 	- Support duration (per task and per session).
 	- Support time chunks (Free time, work time) and allowable activities (groups, sorta?)
-- Support basic command-line usage and data persistence using an XML file
-- Ping user for input, or when a task is due (configurable when entering item)
+- Database schema (and choice thereof)
 	
 Future goals:
+- Support basic command-line usage and data persistence using an XML file
+- Ping user for input, or when a task is due (configurable when entering item)
 - Sub-tasks
 - Reminders
 - Varying command-line functionality, either via python script or bash for *nix
 - GUI version
 - Android version
 - Track % completion, +Suggestions based on this
-- Remote data storing; requires security, naturally.
+- Remote data storing; requires security, naturally. Also users and such.
 - Shopping list functionality, including sharing list with other people (ie family)
 - Goals lists - long term, short term. Grouped.
 - Make use of Decision tactics.
