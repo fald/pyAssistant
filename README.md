@@ -21,6 +21,7 @@ Future goals:
 - Varying command-line functionality, either via python script or bash for *nix
 - GUI version
 - Android version
+- Task auto-ordering; topological sort?
 - Track % completion, +Suggestions based on this
 - Remote data storing; requires security, naturally. Also users and such.
 - Shopping list functionality, including sharing list with other people (ie family)
