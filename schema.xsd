@@ -1,0 +1,20 @@
+<?xml version="1.0">
+
+<xs:schema>
+	<xs:element name="itemid" type="xs:integer">
+	<xs:element name="itemname" type="xs:string">
+	<xs:element name="nextdue" type="xs:date">
+	<xs:element name="recurrence" type="">
+	<xs:element name="groups" type="">
+	<xs:element name="groupname" type="xs:string">
+	<xs:element name="groupid" type="xs:integer">
+	<xs:element name="tasklength" type="xs:time">
+	<xs:element name="sessionlength" type="xs:time">
+	<xs:element name="availablechunks" type="">
+	<xs:element name="chunkname" type="">
+	<xs:element name="chunkid" type="">
+	<xs:element name="chunk" type="">
+	<xs:element name="groupsinchunk" type="">
+	<xs:element name="priority" type="xs:integer">
+	<xs:element name="order" type="xs:integer">
+</xs:schema>
