@@ -3,16 +3,21 @@
 <xs:schema>
 <!-- Wrap in user -->
 	<xs:element name="item" maxOccurs="unbounded">
-		<xs:element name="itemid" type="xs:integer" />
+		<xs:attribute name="id" type="ID" />
+		<!-- <xs:element name="itemid" type="xs:integer" /> -->
 		<xs:element name="itemname" type="xs:string" />
 		<xs:element name="itemdescription" type="xs:string" />
 		
+		<!-- Later 
 		<xs:element name="nextdue" type="xs:date" />
 		<xs:element name="recurrence" type="" />
+		-- >
 		
+		<!-- Later
 		<xs:element name="groups" type="" />
 		<xs:element name="groupname" type="xs:string" />
 		<xs:element name="groupid" type="xs:integer" />
+		-->
 		
 		<!-- Later.
 		<xs:element name="availablechunks" type="" />
@@ -22,16 +27,22 @@
 		<xs:element name="groupsinchunk" type="" />
 		-->
 		
+		<!-- Later
 		<xs:element name="tasklength" type="xs:time" />
 		<xs:element name="sessionlength" type="xs:time" />
+		-->
 		
+		<!-- Later
 		<xs:element name="priority" type="xs:integer" />
 		<xs:element name="order" type="xs:integer" />
+		-->
 		
 		<!-- <xs:element name="completionrate" type="xs:decimal" /> -->
 		<!-- Regarding recurrence; completed only if no recurrence? Or completed for each time-frame?
 		Details later. -->
+		<!-- Later
 		<xs:element name="completed" type="xs:boolean" />
+		-->
 	</xs:element>
 
 </xs:schema>
