@@ -14,6 +14,8 @@ Current goals:
 - Database schema (and choice thereof)
 	
 Future goals:
+- Local users, then remote users
+- Behavior on skipping/missing an item - recurr, wait until completion, strict time/day, just skip?
 - Support basic command-line usage and data persistence using an XML file
 - Ping user for input, or when a task is due (configurable when entering item)
 - Sub-tasks
