@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<xs:schema>
+
+	<xs:element name="groups">
+		<xs:complexType name="group" maxOccurs="unbounded">
+			<xs:sequence>
+				<xs:element name="groupid" type="xs:integer">
+				<xs:element name="groupname" type="xs:string">
+			</xs:sequence>
+		</xs:command>
+	</xs:element>
+	
+</xs:schema>
