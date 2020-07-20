@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema" 
+   	xmlns:xs="http://www.w3.org/2001/XMLSchema-datatypes" 
+   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   	version="1.0">
 <!-- Wrap in user -->
 	<xs:element name="item" maxOccurs="unbounded">
 		<xs:attribute name="id" type="ID" />
@@ -11,8 +15,8 @@
 		<!-- Later 
 		<xs:element name="nextdue" type="xs:date" />
 		<xs:element name="recurrence" type="" />
-		-- >
-		
+    -->
+    
 		<!-- Later
 		<xs:element name="groups" type="" />
 		<xs:element name="groupname" type="xs:string" />
@@ -45,4 +49,4 @@
 		-->
 	</xs:element>
 
-</xs:schema>
+</schema>
