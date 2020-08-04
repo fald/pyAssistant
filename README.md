@@ -11,7 +11,7 @@ Current goals:
 	- Support prioritising.
 	- Support duration (per task and per session).
 	- Support time chunks (Free time, work time) and allowable activities (groups, sorta?)
-- Database schema (and choice thereof)
+	- Just use a python class + pickling for now, expand later
 	
 Future goals:
 - Local users, then remote users
@@ -31,3 +31,4 @@ Future goals:
 - Make use of Decision tactics.
 - Mood info gathering and updating for a running total of mood and why/what causes it.
 - Preset goals/todo sections, such as fitness + meal prep, including all steps and durations
+- Database schema (and choice thereof)
